@@ -1,0 +1,9 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.app{
+  padding-left: 2.34375vw;
+  padding-right: 2.34375vw;
+}

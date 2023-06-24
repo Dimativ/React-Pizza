@@ -1,0 +1,160 @@
+.wrapper {
+    margin-top: 1.82291666667vw;
+    margin-right: 2.08333333333vw;
+    margin-bottom: 3.38541666667vw;
+    flex-basis: 30%;
+}
+
+.pizzaPic {
+    height: 13.5416666667vw;
+    width: 13.5416666667vw;
+
+    margin-left: 2.083333333vw;
+}
+
+.title {
+    margin-top: 0.57291666666vw;
+    font-family: ProximaNova-Bold;
+
+    font-size: 1.04166666667vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.selectorBlock {
+    margin-top: 1.14583333333vw;
+
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 0.52083333333vw;
+    flex-direction: column;
+    padding: 0.3125vw;
+}
+
+.selectorBlock ul {
+    display: flex;
+    flex: 1
+}
+
+.selectorBlock ul:first-of-type {
+    margin-bottom: 0.3125vw;
+}
+
+.selectorBlock ul li {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0.41666666666vw;
+    flex: 1;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.72916666666vw;
+    user-select: none;
+    text-align: center;
+}
+
+.active {
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    cursor: auto;
+}
+
+.botBlock {
+    margin-top: 1.04166666667vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.14583333333vw;
+    line-height: 1.40625vw;
+    letter-spacing: 0.015em;
+}
+
+.addButton {
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 6.875vw;
+    height: 2.08333333333vw;
+
+    background: #FFFFFF;
+    border: 0.05208333333vw solid #FE5F1E;
+    border-radius: 1.5625vw;
+
+    transition: background 0.15s ease-in-out;
+}
+
+.plus {
+    font-family: ProximaNova-Bold;
+    font-weight: bold;
+    font-size: 1.03333333333vw;
+    line-height: 0.98958333333vw;
+
+    color: #fe5f1e;
+    transition: color 0.15s ease-in-out;
+}
+
+.addText {
+    margin-left: 0.52083333333vw;
+    font-family: ProximaNova-Bold;
+    font-weight: bold;
+    font-size: 1.00333333333vw;
+    line-height: 0.98958333333vw;
+
+    color: #fe5f1e;
+    transition: color 0.15s ease-in-out;
+}
+
+.count {
+    margin-left: 0.5vw;
+
+    border: 0.05208333333vw solid #fe5f1e;
+
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 1.5625vw;
+    background-color: #fe5f1e;
+    color: #fff;
+    font-weight: 600;
+
+    width: 1.4vw;
+    height: 1.4vw;
+    font-size: 1vw;
+    line-height: 1.2vw;
+
+    position: relative;
+
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.addButton:hover {
+    background: #fe5f1e;
+    transition: background 0.15s ease-in-out;
+}
+
+.addButton:hover .plus {
+    color: #FFFFFF;
+    transition: color 0.15s ease-in-out;
+}
+
+.addButton:hover .addText {
+    color: #FFFFFF;
+    transition: color 0.15s ease-in-out;
+}
+
+.addButton:hover .count {
+    background-color: #FFFFFF;
+    color: #fe5f1e;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}

@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 15.5263157895vw;
+
+    background-color: #FFFFFF;
+}
+
+.cartIcon {
+    width: 1.52631578947vw;
+    height: 1.52631578947vw;
+
+    margin-top: 5.10526315789vw;
+}
+
+.title {
+    font-family: ProximaNova-Bold;
+
+    margin-left: 0.8947368421vw;
+    margin-top: 4.94736842105vw;
+
+    font-size: 1.68421052632vw;
+    line-height: 2.05263157895vw;
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.binIcon {
+    width: 1.05vw;
+    height: 1.05vw;
+}
+
+.clearCart {
+    font-family: ProximaNova-Regular;
+
+    font-size: 1.1vw;
+    line-height: 1vw;
+
+    margin-top: 0.1vw;
+    margin-left: 0.36842105263vw;
+}
+
+.clearButton {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 5.63684210526vw;
+    margin-left: 30.5684210526vw;
+
+    opacity: 0.7;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.clearButton:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.15s ease-in-out;
+}

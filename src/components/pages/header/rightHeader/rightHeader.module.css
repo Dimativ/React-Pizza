@@ -1,0 +1,54 @@
+.wrapper {
+    margin-left: 16.53125vw;
+    margin-top: 2.20833333333vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    min-width: 7.8125vw;
+
+    height: 2.60416666667vw;
+
+    background-color: #FE5F1E;
+    border-radius: 1.5625vw;
+    text-decoration: none;
+}
+
+.price {
+    white-space: nowrap;
+    margin-left: 1.19791666667vw;
+
+    font-family: ProximaNova-Bold;
+    font-size: 0.95vw;
+    line-height: 0.98958333333vw;
+
+    color: #FFFFFF;
+}
+
+.verticalLine {
+    width: 0.08208333333vw;
+    height: 1.30208333333vw;
+
+    margin-left: 0.67708333333vw;
+
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.cartIcon {
+    margin-left: 0.67708333333vw;
+
+    width: 0.93333333333vw;
+    height: 0.93333333333vw;
+}
+
+.cartCount {
+    margin-left: 0.41666666666vw;
+    margin-right: 0.67708333333vw;
+
+    font-family: ProximaNova-Bold;
+    font-size: 0.95vw;
+    line-height: 0.98958333333vw;
+
+    color: #FFFFFF;
+}

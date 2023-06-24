@@ -1,0 +1,74 @@
+.wrapper {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.title {
+    margin-top: 8.48958333333vw;
+
+    font-family: ProximaNova-Bold;
+
+    font-size: 1.66666666667vw;
+    line-height: 2.03125vw;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.description {
+    margin-top: 0.52083333333vw;
+
+    font-family: ProximaNova-Regular;
+
+    font-size: 0.9375vw;
+    line-height: 145.4%;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #777777;
+}
+
+.pic {
+    margin-top: 2.44791666667vw;
+
+    width: 15.5729166667vw;
+    height: 13.3333333333vw;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+
+    text-decoration: none;
+    width: 10.9375vw;
+    height: 2.39583333333vw;
+
+    color: #FFFFFF;
+
+    background: #282828;
+    border-radius: 1.5625vw;
+
+
+    font-family: ProximaNova-Bold;
+    font-size: 1vw;
+    line-height: 1vw;
+    text-align: center;
+    letter-spacing: 0.015em;
+
+}
+
+.back:hover {
+    color: #FFFFFF;
+}

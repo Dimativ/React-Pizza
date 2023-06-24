@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    background-color: #FFFFFF;
+
+    padding-left: 3.48958333333vw;
+    padding-bottom: 2vw;
+}
+
+.paginate li {
+    display: inline-block;
+
+}
+
+.paginate :global .selected a {
+    color: #FFFFFF;
+    background-color: #FE5F1E;
+}
+
+.paginate a {
+    display: inline-block;
+    text-align: center;
+
+    width: 2.34375vw;
+    font-size: 1vw;
+    line-height: 2.1875vw;
+    height: 2.34375vw;
+
+    color: #FE5F1E;
+    border: 0.05208333333vw solid #FE5F1E;
+    border-radius: 1.5625vw;
+    margin-right: 0.52083333333vw;
+
+    cursor: pointer;
+}
+
+.paginate a:hover {
+    color: #FFFFFF;
+    background-color: #FE5F1E;
+}

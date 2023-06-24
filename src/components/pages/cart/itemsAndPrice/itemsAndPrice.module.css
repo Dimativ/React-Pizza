@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 15.5789473684vw;
+    margin-top: 3.125vw;
+}
+
+.count {
+    font-family: ProximaNova-Regular;
+
+    font-size: 1.14583333333vw;
+    line-height: 1.40625vw;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.count span {
+    font-family: ProximaNova-Bold;
+}
+
+.price {
+    margin-left: 22.1875vw;
+    font-size: 1.14583333333vw;
+    line-height: 1.40625vw;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.price span {
+    font-family: ProximaNova-Bold;
+    color: #FE5F1E;
+}
+

@@ -1,0 +1,115 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 14.1789473684vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.pizzaImg {
+    width: 4.16666666667vw;
+    height: 4.16666666667vw;
+
+    margin-top: 1.5625vw;
+}
+
+.textBlock {
+    min-width: 14vw;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2.29166666667vw;
+    margin-left: 0.78125vw;
+}
+
+.title {
+    font-family: ProximaNova-Bold;
+
+    font-size: 1.14583333333vw;
+    line-height: 1.40625vw;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.description {
+    font-family: ProximaNova-Regular;
+
+    font-size: 0.9375vw;
+    line-height: 1.14583333333vw;
+    letter-spacing: 0.01em;
+
+    min-width: 9.5vw;
+    color: #8D8D8D;
+}
+
+.minus {
+    margin-left: 10vw;
+    margin-top: 2.8125vw;
+
+    width: 1.66666666667vw;
+    height: 1.66666666667vw;
+    fill: #FE5F1E;
+
+    cursor: pointer;
+}
+
+.count {
+    margin-top: 2.96875vw;
+    margin-left: 0.625vw;
+
+    font-family: ProximaNova-Bold;
+
+    font-size: 1.14583333333vw;
+    line-height: 1.40625vw;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.plus {
+    margin-top: 2.8125vw;
+    margin-left: 0.625vw;
+
+    width: 1.66666666667vw;
+    height: 1.66666666667vw;
+    fill: #FE5F1E;
+
+    cursor: pointer;
+}
+
+
+.price {
+    margin-top: 2.96875vw;
+    margin-left: 4.84375vw;
+
+    font-family: ProximaNova-Bold;
+
+    font-size: 1.14583333333vw;
+    line-height: 1.40625vw;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.delete {
+    fill: #D7D7D7;
+
+    margin-top: 2.8125vw;
+    margin-left: 4.84375vw;
+
+    width: 1.66666666667vw;
+    height: 1.66666666667vw;
+
+    cursor: pointer;
+    transition: fill 0.15s ease-in-out;
+}
+
+.delete:hover {
+    fill: #000000;
+    transition: fill 0.15s ease-in-out;
+}

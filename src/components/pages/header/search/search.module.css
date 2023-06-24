@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+
+    margin-left: 12vw;
+    margin-top: 2.70833333333vw;
+}
+
+.search {
+    border: 0.05208333333vw solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.52083333333vw;
+
+    padding: 0.41666666666vw 0.78125vw;
+    padding-left: 2.1vw;
+
+    font-size: 0.83333333333vw;
+    line-height: 0.83333333333vw;
+
+    width: 15.625vw;
+    height: 1vw;
+
+
+}
+
+.search:focus {
+    outline: none !important;
+    border: 0.05208333333vw solid rgba(0, 0, 0, 0.2);
+    transition: 0.15s ease-in-out;
+}
+
+.loupe {
+    margin-top: 0.28vw;
+    margin-left: 0.5vw;
+
+    width: 1.1vw;
+    height: 1.1vw;
+
+    opacity: 0.7;
+    position: absolute;
+    cursor: pointer;
+}
+
+.closeIcon {
+    margin-left: 16.8vw;
+    margin-top: 0.27vw;
+
+    width: 1.2vw;
+    height: 1.2vw;
+
+    opacity: 0.6;
+
+    position: absolute;
+    cursor: pointer;
+}
+
+.closeIcon:hover {
+    opacity: 0.8;
+}

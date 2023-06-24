@@ -1,0 +1,80 @@
+.wrapper {
+    margin-left: 9.01041666667vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.sortArrow {
+    margin-right: 0.36458333333vw;
+
+    width: 0.52083333333vw;
+    height: 0.3125vw;
+}
+
+.sortLabel {
+    display: flex;
+    align-items: center
+}
+
+.sortLabel span {
+    margin-left: 0.41666666666vw;
+
+    font-family: ProximaNova-Regular;
+    font-size: 1.05vw;
+    line-height: 1vw;
+
+    letter-spacing: 0.015em;
+
+    color: #FE5F1E;
+
+    border-bottom: 0.05208333333vw dotted #FE5F1E;
+    cursor: pointer;
+}
+
+.sortLabel b {
+    font-family: ProximaNova-Bold;
+    font-size: 1.05vw;
+    line-height: 1vw;
+
+    letter-spacing: 0.015em;
+
+    color: #2C2C2C;
+}
+
+.sortPopup {
+    position: absolute;
+    margin-top: 3.78125vw;
+    margin-left: 1.66875vw;
+
+    background: #ffffff;
+    box-shadow: 0vw 0.26041666666vw 0.78125vw rgba(0, 0, 0, 0.09);
+    border-radius: 0.52083333333vw;
+    overflow: hidden;
+
+    width: 8.33333333333vw;
+}
+
+.sortPopup ul {
+    overflow: hidden;
+}
+
+.sortPopup ul li {
+    padding: 0.625vw 1.04166666667vw 1.04166666667vw 0.625vw;
+    cursor: pointer;
+
+    font-family: ProximaNova-Regular;
+    font-size: 1.05vw;
+    line-height: 1vw;
+    letter-spacing: 0.015em;
+
+    color: #000000;
+}
+
+.sortPopup ul li.active, .sortPopup ul li:hover {
+    background: rgba(254, 95, 30, 0.05);
+}
+
+.active {
+    font-family: ProximaNova-Bold !important;
+    color: #fe5f1e !important;
+}
