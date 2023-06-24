@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const LeftHeader: React.FC = () => {
     return (
-        <Link className={style.wrapper} to="React-Pizza/">
+        <Link className={style.wrapper} to="/">
             <img className={style.logo} src={logo}></img>
             <div className={style.textPart}>
                 <p className={style.titleText}>REACT PIZZA</p>

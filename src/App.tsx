@@ -9,9 +9,9 @@ const App = () => {
     return (
         <Routes>
             <Route path="/" element={<MainLayout/>}>
-                <Route path="React-Pizza" element={<Home/>}/>
+                <Route path="" element={<Home/>}/>
                 <Route path="*" element={<NotFound/>}/>
-                <Route path="React-Pizza/cart" element={<Cart/>}/>
+                <Route path="cart" element={<Cart/>}/>
             </Route>
         </Routes>
     )
