@@ -1,4 +1,5 @@
 .line {
     height: 0.05208333333vw;
+    min-width: 91vw;
     background-color: #F6F6F6;
 }
