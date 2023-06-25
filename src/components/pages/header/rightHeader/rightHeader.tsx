@@ -9,7 +9,7 @@ const RightHeader: React.FC = () => {
     const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
 
     return (
-        <Link className={style.wrapper} to="/React-Pizza/cart">
+        <Link className={style.wrapper} to="cart">
             <span className={style.price}>{totalPrice} ₴</span>
             <div className={style.verticalLine}></div>
             <img src={cartIcon} className={style.cartIcon}></img>

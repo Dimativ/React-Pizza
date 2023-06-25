@@ -10,7 +10,7 @@ const EmptyCart: React.FC = () => {
             <p className={style.description}>You probably haven't ordered pizza yet.<br/>
                 To order pizza, go to the main page.</p>
             <img className={style.pic} alt="emptyCart" src={emptyCart}></img>
-            <Link to="/React-Pizza" className={style.back}>Come back</Link>
+            <Link to="/" className={style.back}>Come back</Link>
         </div>
     );
 }
