@@ -7,7 +7,7 @@ import {useCallback, useRef, useState} from "react";
 import {useDispatch} from "react-redux";
 import {setSearchValue} from "../../../../store/slices/filter/filterSlice.ts";
 
-const Search: React.FC = () => {
+export const Search: React.FC = () => {
     const dispatch = useDispatch();
     const [value, setValue] = useState('');
     const inputRef = useRef<HTMLInputElement>();
@@ -47,5 +47,3 @@ const Search: React.FC = () => {
 
     );
 }
-
-export default Search;

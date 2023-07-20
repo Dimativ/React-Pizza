@@ -1,8 +1,8 @@
 import style from "./pizzas.module.css"
-import PizzaBlock from "./pizzaBlock/pizzaBlock";
-import Skeleton from "./pizzaBlock/skeleton";
+import {PizzaBlock, Skeleton} from "../../../index";
+import {Status} from "../../../../store/slices/pizza/pizzaTypes";
 
-const Pizzas: React.FC = ({status, items}) => {
+export const Pizzas: React.FC = ({status, items}) => {
     const pizzaArr = items.map((obj) => (<PizzaBlock key={obj.id} {...obj}/>));
 
     return (
@@ -10,8 +10,8 @@ const Pizzas: React.FC = ({status, items}) => {
             <p className={style.title}>All pizzas</p>
             <div className={style.pizzaArea}>
                 {
-                    status === 'error' ? (
-                        <div>Error</div>) : (status === 'loading' ? [...new Array(6)].map((_, index) => <Skeleton
+                    status === Status.ERROR ? (
+                        <div>Error</div>) : (status === Status.LOADING ? [...new Array(6)].map((_, index) => <Skeleton
                             key={index}/>)
                         : pizzaArr)
                 }
@@ -19,5 +19,3 @@ const Pizzas: React.FC = ({status, items}) => {
         </div>
     );
 }
-
-export default Pizzas;

@@ -1,17 +1,19 @@
 import './App.css'
 import Home from "./components/pages/home/home";
 import {Route, Routes} from "react-router-dom";
-import NotFound from "./components/pages/notFound/notFound";
-import Cart from "./components/pages/cart/cart";
 import MainLayout from "./layouts/mainLayout";
+import {lazy, Suspense} from "react";
+
+const NotFound = lazy(() => import('./components/pages/notFound/notFound'));
+const Cart = lazy(() => import('./components/pages/cart/cart'));
 
 const App = () => {
     return (
         <Routes>
             <Route path="/" element={<MainLayout/>}>
                 <Route path="" element={<Home/>}/>
-                <Route path="*" element={<NotFound/>}/>
-                <Route path="cart" element={<Cart/>}/>
+                <Route path="*" element={<Suspense><NotFound/></Suspense>}/>
+                <Route path="cart" element={<Suspense><Cart/></Suspense>}/>
             </Route>
         </Routes>
     )

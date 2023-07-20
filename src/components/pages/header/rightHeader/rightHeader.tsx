@@ -4,7 +4,7 @@ import cartIcon from "../../../../assets/headerPics/cartIcon.png"
 import {useSelector} from "react-redux";
 import {selectCart} from "../../../../store/slices/cart/cartSelectors.ts";
 
-const RightHeader: React.FC = () => {
+export const RightHeader: React.FC = () => {
     const {items, totalPrice} = useSelector(selectCart);
     const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
 
@@ -17,5 +17,3 @@ const RightHeader: React.FC = () => {
         </Link>
     );
 }
-
-export default RightHeader;

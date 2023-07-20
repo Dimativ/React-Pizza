@@ -1,12 +1,11 @@
 import style from "./categoriesAndSort.module.css"
-import Categories from "./categories/categories";
-import Sort from "./sort/sort";
+import {Categories, Sort} from "../../../index";
 import {setCategoryId} from "../../../../store/slices/filter/filterSlice.ts";
 import {useDispatch, useSelector} from "react-redux";
 import {useCallback} from "react";
 import {selectFilterCategoryId} from "../../../../store/slices/filter/filterSelectors.ts";
 
-const CategoriesAndSort: React.FC = () => {
+export const CategoriesAndSort: React.FC = () => {
     const dispatch = useDispatch();
 
     const categoryId = useSelector(selectFilterCategoryId);
@@ -22,5 +21,3 @@ const CategoriesAndSort: React.FC = () => {
         </div>
     );
 }
-
-export default CategoriesAndSort;

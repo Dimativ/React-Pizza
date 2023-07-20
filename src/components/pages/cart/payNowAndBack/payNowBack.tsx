@@ -1,7 +1,7 @@
 import style from "./payNowBack.module.css"
 import {Link} from "react-router-dom";
 
-const PayNowBack: React.FC = () => {
+export const PayNowBack: React.FC = () => {
     return (
         <div className={style.wrapper}>
             <Link to="/" className={style.comeBack}>
@@ -17,5 +17,3 @@ const PayNowBack: React.FC = () => {
         </div>
     );
 }
-
-export default PayNowBack;

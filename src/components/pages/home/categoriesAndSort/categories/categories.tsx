@@ -7,7 +7,7 @@ type CategoriesProps = {
 };
 
 const categories = ["All", "Meaty", "Vegetarian", "Grill", "Spicy", "Combo"];
-const Categories: React.FC = memo(({categoryId, onChangeCategory}: CategoriesProps) => {
+export const Categories: React.FC = memo(({categoryId, onChangeCategory}: CategoriesProps) => {
     return (
         <div className={style.wrapper}>
             <ul>
@@ -19,5 +19,3 @@ const Categories: React.FC = memo(({categoryId, onChangeCategory}: CategoriesPro
         </div>
     );
 });
-
-export default Categories;

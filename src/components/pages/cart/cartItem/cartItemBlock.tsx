@@ -1,5 +1,5 @@
 import style from "./cartItem.module.css"
-import SeparateCartLine from "./separateCartLine/separateCartLine";
+import {SeparateCartLine} from "../../../index";
 import {useDispatch} from "react-redux";
 import {addItem, minusItem, removeItem} from "../../../../store/slices/cart/cartSlice.ts";
 import {CartItem} from "../../../../store/slices/cart/cartTypes.ts";
@@ -14,7 +14,7 @@ type CartItemProps = {
     imageUrl: string;
 };
 
-const CartItemBlock: React.FC = ({id, title, price, size, type, count, imageUrl}: CartItemProps) => {
+export const CartItemBlock: React.FC = ({id, title, price, size, type, count, imageUrl}: CartItemProps) => {
     const dispatch = useDispatch();
     const onClickPlus = () => {
         dispatch(
@@ -71,5 +71,3 @@ const CartItemBlock: React.FC = ({id, title, price, size, type, count, imageUrl}
         </div>
     );
 }
-
-export default CartItemBlock;

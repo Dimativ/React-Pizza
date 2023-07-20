@@ -1,7 +1,7 @@
 import style from "./itemsAndPrice.module.css"
 import {useSelector} from "react-redux";
 
-const ItemsAndPrice: React.FC = () => {
+export const ItemsAndPrice: React.FC = () => {
     const {items, totalPrice} = useSelector(state => state.cart);
     const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
     return (
@@ -11,5 +11,3 @@ const ItemsAndPrice: React.FC = () => {
         </div>
     );
 }
-
-export default ItemsAndPrice;

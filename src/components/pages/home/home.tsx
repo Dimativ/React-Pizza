@@ -1,6 +1,4 @@
-import CategoriesAndSort from "./categoriesAndSort/categoriesAndSort";
-import Pizzas from "./pizzas/pizzas";
-import Pagination from "./pagination/pagination";
+import {CategoriesAndSort, Pizzas, Pagination} from "../../index";
 import style from "./home.module.css"
 
 import {useEffect, useRef} from "react";

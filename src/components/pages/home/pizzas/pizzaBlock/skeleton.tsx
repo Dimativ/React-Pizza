@@ -1,7 +1,7 @@
 import ContentLoader from "react-content-loader";
 import style from "./skeleton.module.css";
 
-const Skeleton: React.FC = () => (
+export const Skeleton: React.FC = () => (
     <ContentLoader
         className={style.loader}
         speed={2}
@@ -18,5 +18,3 @@ const Skeleton: React.FC = () => (
         <rect x="147" y="379" rx="10" ry="10" width="92" height="30"/>
     </ContentLoader>
 )
-
-export default Skeleton;

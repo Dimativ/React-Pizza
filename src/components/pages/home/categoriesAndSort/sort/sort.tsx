@@ -17,7 +17,7 @@ export const listForSort: SortItem[] = [
     {name: "price", sortProperty: SortPropertyEnum.PRICE},
     {name: "alphabet", sortProperty: SortPropertyEnum.TITLE}];
 
-const Sort: React.FC = memo(() => {
+export const Sort: React.FC = memo(() => {
     const dispatch = useDispatch();
     const sort = useSelector(selectFilterSort);
     const sortRef = useRef<HTMLDivElement>();
@@ -68,4 +68,3 @@ const Sort: React.FC = memo(() => {
     );
 });
 
-export default Sort;

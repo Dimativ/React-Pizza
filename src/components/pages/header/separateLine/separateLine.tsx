@@ -1,6 +1,6 @@
 import style from "./separateLine.module.css"
 
-const SeparateLine: React.FC = () => {
+export const SeparateLine: React.FC = () => {
     return (
         <>
             <div className={style.line}></div>
@@ -8,4 +8,3 @@ const SeparateLine: React.FC = () => {
     );
 }
 
-export default SeparateLine;

@@ -3,7 +3,7 @@ import shopCart from "../../../../assets/cartPagePics/shoppingCart.png"
 import {useDispatch} from "react-redux";
 import {clearItems} from "../../../../store/slices/cart/cartSlice.ts";
 
-const CartHeader: React.FC = () => {
+export const CartHeader: React.FC = () => {
     const dispatch = useDispatch();
     const onClickClear = () => {
         dispatch(
@@ -31,5 +31,3 @@ const CartHeader: React.FC = () => {
         </div>
     );
 }
-
-export default CartHeader;

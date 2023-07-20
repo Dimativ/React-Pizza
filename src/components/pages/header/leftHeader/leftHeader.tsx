@@ -2,7 +2,7 @@ import style from "./leftHeader.module.css"
 import logo from "../../../../assets/headerPics/mainLogo.png"
 import {Link} from "react-router-dom";
 
-const LeftHeader: React.FC = () => {
+export const LeftHeader: React.FC = () => {
     return (
         <Link className={style.wrapper} to="/">
             <img className={style.logo} src={logo}></img>
@@ -14,5 +14,3 @@ const LeftHeader: React.FC = () => {
 
     );
 }
-
-export default LeftHeader;
