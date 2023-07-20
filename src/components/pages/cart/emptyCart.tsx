@@ -1,4 +1,4 @@
-import style from "./cart.module.css"
+import style from "./cart.module.scss"
 import emptyCart from "../../../assets/cartPagePics/emptyCart.png"
 import {Link} from "react-router-dom";
 

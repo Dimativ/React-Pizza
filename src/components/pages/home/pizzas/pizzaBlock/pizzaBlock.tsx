@@ -1,4 +1,4 @@
-import style from "./pizzaBlock.module.css"
+import style from "./pizzaBlock.module.scss"
 
 import {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
@@ -48,7 +48,7 @@ export const PizzaBlock: React.FC = ({id, title, price, imageUrl, types, sizes}:
                 src={imageUrl}
                 alt="Pizza"
             />
-            <h4 className={style.title}>{title}</h4>
+            <h4>{title}</h4>
             <div className={style.selectorBlock}>
                 <ul>
                     {types.map((type, i) => (

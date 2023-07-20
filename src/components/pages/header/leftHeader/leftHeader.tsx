@@ -1,4 +1,4 @@
-import style from "./leftHeader.module.css"
+import style from "./leftHeader.module.scss"
 import logo from "../../../../assets/headerPics/mainLogo.png"
 import {Link} from "react-router-dom";
 

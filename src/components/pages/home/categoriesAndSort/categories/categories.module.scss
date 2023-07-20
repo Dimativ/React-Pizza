@@ -1,0 +1,31 @@
+.wrapper {
+    margin-top: 2.08333333333vw;
+    margin-left: 3.2vw;
+
+    display: flex;
+    ul li {
+        background-color: #f9f9f9;
+
+        padding: 0.67708333333vw 1.5625vw;
+        border-radius: 1.5625vw;
+        margin-right: 0.52083333333vw;
+        font-weight: bold;
+
+        font-size: 1.1vw;
+        line-height: 1vw;
+
+        display: inline-flex;
+        cursor: pointer;
+        transition: background-color 0.1s ease-in-out;
+        user-select: none;
+        vertical-align: top;
+    }
+    ul li:hover {
+        background-color: #f4f4f4
+    }
+}
+
+.activeChoice {
+    background-color: #282828 !important;
+    color: #fff
+}

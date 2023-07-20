@@ -1,4 +1,4 @@
-import style from "./header.module.css"
+import style from "./header.module.scss"
 import {LeftHeader, SeparateLine, RightHeader, Search} from "../../index";
 import {useLocation} from "react-router-dom";
 

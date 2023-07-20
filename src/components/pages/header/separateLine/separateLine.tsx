@@ -1,4 +1,4 @@
-import style from "./separateLine.module.css"
+import style from "./separateLine.module.scss"
 
 export const SeparateLine: React.FC = () => {
     return (

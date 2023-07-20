@@ -1,4 +1,4 @@
-import style from "./cartItem.module.css"
+import style from "./cartItem.module.scss"
 import {SeparateCartLine} from "../../../index";
 import {useDispatch} from "react-redux";
 import {addItem, minusItem, removeItem} from "../../../../store/slices/cart/cartSlice.ts";

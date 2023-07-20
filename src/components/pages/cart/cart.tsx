@@ -1,5 +1,5 @@
 import {CartHeader, PayNowBack, ItemsAndPrice, EmptyCart, CartItemBlock} from "../../index";
-import style from "./cart.module.css"
+import style from "./cart.module.scss"
 
 import {useSelector} from "react-redux";
 import {selectCart} from "../../../store/slices/cart/cartSelectors.ts";

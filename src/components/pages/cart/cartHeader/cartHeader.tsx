@@ -1,4 +1,4 @@
-import style from "./cartHeader.module.css"
+import style from "./cartHeader.module.scss"
 import shopCart from "../../../../assets/cartPagePics/shoppingCart.png"
 import {useDispatch} from "react-redux";
 import {clearItems} from "../../../../store/slices/cart/cartSlice.ts";

@@ -1,4 +1,4 @@
-import style from "./categoriesAndSort.module.css"
+import style from "./categoriesAndSort.module.scss"
 import {Categories, Sort} from "../../../index";
 import {setCategoryId} from "../../../../store/slices/filter/filterSlice.ts";
 import {useDispatch, useSelector} from "react-redux";

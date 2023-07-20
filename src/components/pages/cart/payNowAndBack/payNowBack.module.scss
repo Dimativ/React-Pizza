@@ -24,14 +24,19 @@
     border: 0.05208333333vw solid #D3D3D3;
 
     transition: color 0.15s ease-in-out, fill 0.15s ease-in-out, background-color 0.15s ease-in-out;
-}
 
-.comeBack:hover {
+    &:hover {
     background-color: #232323;
     color: #FFFFFF;
     fill: #FFFFFF;
 
     transition: color 0.15s ease-in-out, fill 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    }
+    svg {
+        width: 1vw;
+        height: 1vw;
+        fill: #CACACA;
+    }
 }
 
 .comeBackText {
@@ -44,12 +49,6 @@
     white-space: nowrap;
 
     color: #CACACA;
-}
-
-.comeBackArrow {
-    width: 1vw;
-    height: 1vw;
-    fill: #CACACA;
 }
 
 .payNow {
@@ -73,11 +72,11 @@
     border: 0.05208333333vw solid #FE5F1E;
 
     transition: background-color 0.15s ease-in-out;
-}
 
-.payNow:hover {
-    background-color: #fe3f0e;
-    transition: background-color 0.15s ease-in-out;
+    &:hover {
+        background-color: #fe3f0e;
+        transition: background-color 0.15s ease-in-out;
+    }
 }
 
 .payNowText {

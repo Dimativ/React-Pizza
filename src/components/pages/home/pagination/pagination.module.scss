@@ -31,9 +31,8 @@
     margin-right: 0.52083333333vw;
 
     cursor: pointer;
-}
-
-.paginate a:hover {
-    color: #FFFFFF;
-    background-color: #FE5F1E;
+    &:hover {
+        color: #FFFFFF;
+        background-color: #FE5F1E;
+    }
 }

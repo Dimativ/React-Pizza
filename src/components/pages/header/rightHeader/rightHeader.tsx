@@ -1,4 +1,4 @@
-import style from "./rightHeader.module.css"
+import style from "./rightHeader.module.scss"
 import {Link} from "react-router-dom";
 import cartIcon from "../../../../assets/headerPics/cartIcon.png"
 import {useSelector} from "react-redux";

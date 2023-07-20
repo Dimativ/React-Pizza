@@ -1,4 +1,4 @@
-import style from "./search.module.css";
+import style from "./search.module.scss";
 import loupe from "../../../../assets/headerPics/loupe.png";
 
 import debounce from "lodash.debounce";

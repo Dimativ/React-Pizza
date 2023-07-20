@@ -1,5 +1,5 @@
 import {CategoriesAndSort, Pizzas, Pagination} from "../../index";
-import style from "./home.module.css"
+import style from "./home.module.scss"
 
 import {useEffect, useRef} from "react";
 import {useSelector} from "react-redux";

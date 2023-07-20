@@ -3,25 +3,33 @@
     margin-right: 2.08333333333vw;
     margin-bottom: 3.38541666667vw;
     flex-basis: 30%;
+    img {
+        height: 13.5416666667vw;
+        width: 13.5416666667vw;
+
+        margin-left: 3.583333333vw;
+    }
+    h4 {
+        margin-top: 0.57291666666vw;
+        font-family: ProximaNova-Bold;
+
+        font-size: 1.04166666667vw;
+        line-height: 1.25vw;
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        color: #000000;
+    }
 }
 
-.pizzaPic {
-    height: 13.5416666667vw;
-    width: 13.5416666667vw;
-
-    margin-left: 3.583333333vw;
-}
-
-.title {
-    margin-top: 0.57291666666vw;
+%plusAddText{
     font-family: ProximaNova-Bold;
+    font-weight: bold;
+    font-size: 1.03333333333vw;
+    line-height: 0.98958333333vw;
 
-    font-size: 1.04166666667vw;
-    line-height: 1.25vw;
-    text-align: center;
-    letter-spacing: 0.01em;
-
-    color: #000000;
+    color: #fe5f1e;
+    transition: color 0.15s ease-in-out;
 }
 
 .selectorBlock {
@@ -32,27 +40,24 @@
     border-radius: 0.52083333333vw;
     flex-direction: column;
     padding: 0.3125vw;
-}
-
-.selectorBlock ul {
-    display: flex;
-    flex: 1
-}
-
-.selectorBlock ul:first-of-type {
-    margin-bottom: 0.3125vw;
-}
-
-.selectorBlock ul li {
-    vertical-align: top;
-    display: inline-block;
-    padding: 0.41666666666vw;
-    flex: 1;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 0.72916666666vw;
-    user-select: none;
-    text-align: center;
+    ul{
+        display: flex;
+        flex: 1
+    }
+    ul:first-of-type {
+        margin-bottom: 0.3125vw;
+    }
+    ul li {
+        vertical-align: top;
+        display: inline-block;
+        padding: 0.41666666666vw;
+        flex: 1;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 0.72916666666vw;
+        user-select: none;
+        text-align: center;
+    }
 }
 
 .active {
@@ -93,27 +98,32 @@
     border-radius: 1.5625vw;
 
     transition: background 0.15s ease-in-out;
+    &:hover {
+        background: #fe5f1e;
+        transition: background 0.15s ease-in-out;
+    }
+    &:hover .plus {
+        color: #FFFFFF;
+        transition: color 0.15s ease-in-out;
+    }
+    &:hover .addText {
+        color: #FFFFFF;
+        transition: color 0.15s ease-in-out;
+    }
+
+    &:hover .count {
+        background-color: #FFFFFF;
+        color: #fe5f1e;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    }
 }
 
 .plus {
-    font-family: ProximaNova-Bold;
-    font-weight: bold;
-    font-size: 1.03333333333vw;
-    line-height: 0.98958333333vw;
-
-    color: #fe5f1e;
-    transition: color 0.15s ease-in-out;
+    @extend %plusAddText
 }
 
 .addText {
-    margin-left: 0.52083333333vw;
-    font-family: ProximaNova-Bold;
-    font-weight: bold;
-    font-size: 1.00333333333vw;
-    line-height: 0.98958333333vw;
-
-    color: #fe5f1e;
-    transition: color 0.15s ease-in-out;
+    @extend %plusAddText
 }
 
 .count {
@@ -135,26 +145,5 @@
 
     position: relative;
 
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
-}
-
-.addButton:hover {
-    background: #fe5f1e;
-    transition: background 0.15s ease-in-out;
-}
-
-.addButton:hover .plus {
-    color: #FFFFFF;
-    transition: color 0.15s ease-in-out;
-}
-
-.addButton:hover .addText {
-    color: #FFFFFF;
-    transition: color 0.15s ease-in-out;
-}
-
-.addButton:hover .count {
-    background-color: #FFFFFF;
-    color: #fe5f1e;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }

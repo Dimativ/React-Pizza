@@ -1,4 +1,4 @@
-import style from "./separateCartLine.module.css"
+import style from "./separateCartLine.module.scss"
 
 export const SeparateCartLine: React.FC = () => {
     return (

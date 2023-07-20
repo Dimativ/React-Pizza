@@ -1,4 +1,4 @@
-import style from "./itemsAndPrice.module.css"
+import style from "./itemsAndPrice.module.scss"
 import {useSelector} from "react-redux";
 
 export const ItemsAndPrice: React.FC = () => {

@@ -1,4 +1,4 @@
-import style from "./pizzas.module.css"
+import style from "./pizzas.module.scss"
 import {PizzaBlock, Skeleton} from "../../../index";
 import {Status} from "../../../../store/slices/pizza/pizzaTypes";
 

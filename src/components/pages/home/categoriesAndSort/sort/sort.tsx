@@ -1,4 +1,4 @@
-import style from "./sort.module.css";
+import style from "./sort.module.scss";
 import {memo, useEffect, useRef, useState} from "react";
 import sortArrow from "../../../../../assets/sortPics/sortArrow.png";
 

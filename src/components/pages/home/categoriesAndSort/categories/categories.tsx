@@ -1,4 +1,4 @@
-import style from "./categories.module.css";
+import style from "./categories.module.scss";
 import {memo} from "react";
 
 type CategoriesProps = {
