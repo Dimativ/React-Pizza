@@ -5,10 +5,10 @@ This repository contains an application that mimics the work of an online pizza 
 
 ## Advantages of this application
 * [Setup](#Setup)
-* [Application design and screen resizing behavior](#Application design and screen resizing behavior)
-* [Using of input field with debouce](#Using of input field with debouce)
-* [Demonstration of sorting and pagination](#Demonstration of sorting and pagination)
-* [Cart with local storage demo](#Cart with local storage demo)
+* [Application design and screen resizing behavior](#Application-design-and-screen-resizing-behavior)
+* [Using of input field with debouce](#Using-of-input-field-with-debouce)
+* [Demonstration of sorting and pagination](#Demonstration-of-sorting-and-pagination)
+* [Cart with local storage demo](#Cart-with-local-storage-demo)
 
 ### Setup
 To run this project, copy it and using yarn do next commands:
