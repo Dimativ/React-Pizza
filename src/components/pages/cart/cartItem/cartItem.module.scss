@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    margin-left: 22.1789473684vw;
+    margin-left: 17.1789473684vw;
 }
 
 .item {
@@ -18,17 +18,18 @@
 }
 
 .textBlock {
-    min-width: 14vw;
+    min-width: 17vw;
     display: flex;
     flex-direction: column;
 
     margin-top: 2.29166666667vw;
-    margin-left: 0.78125vw;
+    margin-left: 0.78vw;
 }
 
 .title {
     font-family: ProximaNova-Bold;
 
+    max-width: 18vw;
     font-size: 1.14583333333vw;
     line-height: 1.40625vw;
     letter-spacing: 0.01em;
@@ -48,7 +49,7 @@
 }
 
 .minus {
-    margin-left: 10vw;
+    margin-left: 15vw;
     margin-top: 2.8125vw;
 
     width: 1.66666666667vw;
@@ -86,6 +87,8 @@
 .price {
     margin-top: 2.96875vw;
     margin-left: 4.84375vw;
+
+    min-width: 8vw;
 
     font-family: ProximaNova-Bold;
 
