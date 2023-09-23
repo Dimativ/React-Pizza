@@ -1,6 +1,8 @@
 # React-Pizza
 Developed by Dmytro Lytvynenko (с) 2023
 
+**`[Link to project](https://react-pizza-nu-dun.vercel.app/)`**
+
 This repository contains an application that mimics the work of an online pizza shop. Here you can choose a pizza from the desired category, sort it by popularity or even find the pizza you need using the search input field.
 
 ## Advantages of this application
